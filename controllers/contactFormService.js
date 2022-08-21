@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { MailService } = require('../models/mailServiceSchema');
-const { sendMail} = require('./mailService');
+const { sendMail} = require('./mailservice');
 
 
 // add a new mail info
